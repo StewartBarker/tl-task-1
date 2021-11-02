@@ -1,0 +1,13 @@
+﻿@page
+@model MyWebApp.Pages.NameFormModel
+@{
+}
+
+<h1>Input form</h1>
+
+<form method="post">
+    <label>Enter your name</label>
+    <input type="text" name="getName" />
+    <p>@Model.testField</p>
+    <input type="submit"/>
+</form>
